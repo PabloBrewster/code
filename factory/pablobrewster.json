@@ -1,0 +1,9 @@
+{
+	"name": "pablobrewster",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b085d602-549d-4a95-96f8-d9c68f219b1f",
+		"tenantId": "de0e09a2-044a-40f8-96a9-77948b05d041"
+	}
+}
