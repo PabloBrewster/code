@@ -1,0 +1,92 @@
+> ls()
+[1] "allotment.data"
+> g20
+Error: object 'g20' not found
+> library("ggplot2")
+> library(treemapify)
+Error in library(treemapify) : there is no package called ‘treemapify’
+> install.packages("treemapify")
+--- Please select a CRAN mirror for use in this session ---
+also installing the dependencies ‘stringi’, ‘shades’, ‘ggfittext’
+
+
+  There is a binary version available but the source version is later:
+          binary source needs_compilation
+ggfittext  0.9.0  0.9.1             FALSE
+
+trying URL 'https://cran.ma.imperial.ac.uk/bin/macosx/contrib/4.0/stringi_1.5.3.tgz'
+Content type 'application/x-gzip' length 13641892 bytes (13.0 MB)
+==================================================
+downloaded 13.0 MB
+
+trying URL 'https://cran.ma.imperial.ac.uk/bin/macosx/contrib/4.0/shades_1.4.0.tgz'
+Content type 'application/x-gzip' length 86119 bytes (84 KB)
+==================================================
+downloaded 84 KB
+
+trying URL 'https://cran.ma.imperial.ac.uk/bin/macosx/contrib/4.0/treemapify_2.5.5.tgz'
+Content type 'application/x-gzip' length 551693 bytes (538 KB)
+==================================================
+downloaded 538 KB
+
+
+The downloaded binary packages are in
+	/var/folders/qq/mbrjrkvj20nbmv4hrts0njzw0000gn/T//Rtmp3DEmA4/downloaded_packages
+installing the source package ‘ggfittext’
+
+trying URL 'https://cran.ma.imperial.ac.uk/src/contrib/ggfittext_0.9.1.tar.gz'
+Content type 'application/x-gzip' length 749630 bytes (732 KB)
+==================================================
+downloaded 732 KB
+
+* installing *source* package ‘ggfittext’ ...
+** package ‘ggfittext’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggfittext)
+
+The downloaded source packages are in
+	‘/private/var/folders/qq/mbrjrkvj20nbmv4hrts0njzw0000gn/T/Rtmp3DEmA4/downloaded_packages’
+> library("treemapify")
+> g20
+Error: object 'g20' not found
+> G20
+          region        country gdp_mil_usd   hdi econ_classification hemisphere
+1         Africa   South Africa      384315 0.629          Developing   Southern
+2  North America  United States    15684750 0.937            Advanced   Northern
+3  North America         Canada     1819081 0.911            Advanced   Northern
+4  North America         Mexico     1177116 0.775          Developing   Northern
+5  South America         Brazil     2395968 0.730          Developing   Southern
+6  South America      Argentina      474954 0.811          Developing   Southern
+7           Asia          China     8227037 0.699          Developing   Northern
+8           Asia          Japan     5963969 0.912            Advanced   Northern
+9           Asia    South Korea     1155872 0.909            Advanced   Northern
+10          Asia          India     1824832 0.554          Developing   Northern
+11          Asia      Indonesia      878198 0.629          Developing   Southern
+12       Eurasia         Russia     2021960 0.788          Developing   Northern
+13       Eurasia         Turkey      794468 0.722          Developing   Northern
+14        Europe European Union    16414483 0.876            Advanced   Northern
+15        Europe        Germany     3400579 0.920            Advanced   Northern
+16        Europe         France     2608699 0.893            Advanced   Northern
+17        Europe United Kingdom     2440505 0.875            Advanced   Northern
+18        Europe          Italy     2014079 0.881            Advanced   Northern
+19   Middle East   Saudi Arabia      727307 0.782          Developing   Northern
+20       Oceania      Australia     1541797 0.938            Advanced   Southern
+> 
+> ggplot(G20, aes(area = gdp_mil_usd, fill = hdi, label = country)) +
++   geom_treemap() +
++   geom_treemap_text(fontface = "italic", colour = "white", place = "centre",
++                     grow = TRUE)
+> 
