@@ -1,0 +1,15 @@
+/Users/paulbrewer/GitHub/code/C_Scratch/bin/Debug/net6.0/C_Scratch
+/Users/paulbrewer/GitHub/code/C_Scratch/bin/Debug/net6.0/C_Scratch.deps.json
+/Users/paulbrewer/GitHub/code/C_Scratch/bin/Debug/net6.0/C_Scratch.runtimeconfig.json
+/Users/paulbrewer/GitHub/code/C_Scratch/bin/Debug/net6.0/C_Scratch.dll
+/Users/paulbrewer/GitHub/code/C_Scratch/bin/Debug/net6.0/ref/C_Scratch.dll
+/Users/paulbrewer/GitHub/code/C_Scratch/bin/Debug/net6.0/C_Scratch.pdb
+/Users/paulbrewer/GitHub/code/C_Scratch/obj/Debug/net6.0/C_Scratch.csproj.AssemblyReference.cache
+/Users/paulbrewer/GitHub/code/C_Scratch/obj/Debug/net6.0/C_Scratch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paulbrewer/GitHub/code/C_Scratch/obj/Debug/net6.0/C_Scratch.AssemblyInfoInputs.cache
+/Users/paulbrewer/GitHub/code/C_Scratch/obj/Debug/net6.0/C_Scratch.AssemblyInfo.cs
+/Users/paulbrewer/GitHub/code/C_Scratch/obj/Debug/net6.0/C_Scratch.csproj.CoreCompileInputs.cache
+/Users/paulbrewer/GitHub/code/C_Scratch/obj/Debug/net6.0/C_Scratch.dll
+/Users/paulbrewer/GitHub/code/C_Scratch/obj/Debug/net6.0/ref/C_Scratch.dll
+/Users/paulbrewer/GitHub/code/C_Scratch/obj/Debug/net6.0/C_Scratch.pdb
+/Users/paulbrewer/GitHub/code/C_Scratch/obj/Debug/net6.0/C_Scratch.genruntimeconfig.cache
